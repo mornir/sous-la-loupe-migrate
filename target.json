@@ -1,0 +1,47 @@
+{
+  "id": 1,
+  "vedette": "Fach",
+  "traductions": [
+    {
+      "sens": "sens propre",
+      "termes": [
+        "compartiment",
+        "tiroir (p. ex. secret)"
+      ]
+    },
+    {
+      "sens": "sens figuré",
+      "termes": [
+        "branche",
+        "métier"
+      ]
+    }
+  ],
+  "exemples": [
+    {
+      "de": "Das schlägt nicht in mein Fach.",
+      "fr": [
+        "Cela n'est pas de mon domaine.",
+        "Ce n'est nullement mon fort."
+      ]
+    },
+    {
+      "de": "Das schlägt nicht in mein Fach.",
+      "fr": [
+        "Cela n'est pas de mon domaine.",
+        "Ce n'est nullement mon fort."
+      ]
+    }
+  ],
+  "remarque": "",
+  "liens": [
+    {
+      "id": 2,
+      "vedette": "Fachabteilung"
+    },
+    {
+      "id": 3,
+      "vedette": "Fachverband"
+    }
+  ]
+}

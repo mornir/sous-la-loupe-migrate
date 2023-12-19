@@ -1,8 +1,16 @@
-const path = "./data/french.json";
+const path = "./data/german.json";
 const file = Bun.file(path);
 
-const contents = await file.json();
+const vedettes = await file.json();
 
-file.type;
+const data = vedettes.map((v) => {
+  if(!v.term) return null
+  return {
+    id: v.id_term,
+    term: v.term.trim()
+  }
+}).filter(Boolean)
 
-console.log(file.type);
+const output = JSON.stringify(data)
+
+await Bun.write("fichier.json", output);
