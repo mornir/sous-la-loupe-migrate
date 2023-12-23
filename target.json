@@ -3,7 +3,27 @@
   "vedette": "Fach",
   "traductions": [
     {
-      "sens": "sens propre",
+      "id": 333,
+      "ordre": 1,
+      "term": "compartiment",
+      "groupe_num": 1,
+      "groupe_nom": "sens propre"
+    },
+    {
+      "term": "compartiment",
+      "sens": "tiroir (p. ex. secret)"
+    },
+    {
+      "term": "branche",
+      "sens": "sens figuré"
+    },
+    {
+      "term": "métier",
+      "sens": "sens figuré"
+    },
+    {
+      "sens": "sens figuré",
+      "ordre": 1,
       "termes": [
         "compartiment",
         "tiroir (p. ex. secret)"
@@ -11,6 +31,7 @@
     },
     {
       "sens": "sens figuré",
+      "ordre": 2,
       "termes": [
         "branche",
         "métier"
