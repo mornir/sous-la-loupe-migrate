@@ -14,7 +14,7 @@ const data = vedettes
     const traductions = translations.filter((t) => v.id_term === t.id_term).map(t2 => {
       return {
         id: t2.id_translation,
-        terme: t2.term_translation.trim(),
+        terme: t2.term_translation.replace(/(<([^>]+)>)/gi, "").trim(),
         groupe: t2.display_order
       }
     });

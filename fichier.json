@@ -52,7 +52,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>administrateur (adj.)</p>",
+        "terme": "administrateur (adj.)",
         "groupe": 1
       }
     ]
@@ -145,7 +145,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>à l'écart</p>",
+        "terme": "à l'écart",
         "groupe": 2
       }
     ]
@@ -985,7 +985,7 @@
       },
       {
         "id": 23,
-        "terme": "<p>extrapoler</p>",
+        "terme": "extrapoler",
         "groupe": 1
       },
       {
@@ -2942,7 +2942,7 @@
       },
       {
         "id": 6,
-        "terme": "<p>juste</p>",
+        "terme": "juste",
         "groupe": 1
       },
       {
@@ -3109,7 +3109,7 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "<p>officiel</p>",
+        "terme": "officiel",
         "groupe": 1
       },
       {
@@ -3119,7 +3119,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>décrété par l'administration</p>",
+        "terme": "décrété par l'administration",
         "groupe": 1
       }
     ]
@@ -5432,12 +5432,12 @@
       },
       {
         "id": 2,
-        "terme": "<p>négociation d'un mariage</p>",
+        "terme": "négociation d'un mariage",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>courtage matrimonial</p>",
+        "terme": "courtage matrimonial",
         "groupe": 1
       }
     ]
@@ -9282,7 +9282,7 @@
       },
       {
         "id": 5,
-        "terme": "<p>montant supplémentaire</p>",
+        "terme": "montant supplémentaire",
         "groupe": 1
       }
     ]
@@ -10522,7 +10522,7 @@
       },
       {
         "id": 6,
-        "terme": "<p>s'éteindre</p>",
+        "terme": "s'éteindre",
         "groupe": 1
       }
     ]
@@ -10981,7 +10981,7 @@
       },
       {
         "id": 10,
-        "terme": "<p>exclure</p>",
+        "terme": "exclure",
         "groupe": 1
       },
       {
@@ -11062,7 +11062,7 @@
       },
       {
         "id": 5,
-        "terme": "<p>exploiter (machines)</p>",
+        "terme": "exploiter (machines)",
         "groupe": 1
       },
       {
@@ -11471,7 +11471,7 @@
       },
       {
         "id": 6,
-        "terme": "<p>taille</p>",
+        "terme": "taille",
         "groupe": 1
       },
       {
@@ -13373,7 +13373,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>carte mentale</p>",
+        "terme": "carte mentale",
         "groupe": 1
       }
     ]
@@ -21424,7 +21424,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>perspective</p>",
+        "terme": "perspective",
         "groupe": 1
       }
     ]
@@ -24685,7 +24685,7 @@
     "traductions": [
       {
         "id": 5,
-        "terme": "<p>être conforme à</p>",
+        "terme": "être conforme à",
         "groupe": 1
       },
       {
@@ -26191,12 +26191,12 @@
       },
       {
         "id": 1,
-        "terme": "<p>éloignement</p>",
+        "terme": "éloignement",
         "groupe": 2
       },
       {
         "id": 2,
-        "terme": "<p>désaffection</p>",
+        "terme": "désaffection",
         "groupe": 2
       },
       {
@@ -29826,7 +29826,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>locelle</p>",
+        "terme": "locelle",
         "groupe": 3
       },
       {
@@ -30044,27 +30044,27 @@
       },
       {
         "id": 1,
-        "terme": "<p>échéant</p>",
+        "terme": "échéant",
         "groupe": 2
       },
       {
         "id": 2,
-        "terme": "<p>venant à échéance</p>",
+        "terme": "venant à échéance",
         "groupe": 2
       },
       {
         "id": 3,
-        "terme": "<p>imminent</p>",
+        "terme": "imminent",
         "groupe": 2
       },
       {
         "id": 4,
-        "terme": "<p>tout proche</p>",
+        "terme": "tout proche",
         "groupe": 2
       },
       {
         "id": 1,
-        "terme": "<p>il est grand temps</p>",
+        "terme": "il est grand temps",
         "groupe": 3
       }
     ]
@@ -30232,7 +30232,7 @@
       },
       {
         "id": 1,
-        "terme": "<p>leader</p>",
+        "terme": "leader",
         "groupe": 2
       },
       {
@@ -30879,7 +30879,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>mosaïque</p>",
+        "terme": "mosaïque",
         "groupe": 3
       }
     ]
@@ -32138,7 +32138,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>aide sociale</p>",
+        "terme": "aide sociale",
         "groupe": 2
       }
     ]
@@ -33080,7 +33080,7 @@
       },
       {
         "id": 1,
-        "terme": "<p>tissu (p. ex. d'intrigues)</p>",
+        "terme": "tissu (p. ex. d'intrigues)",
         "groupe": 5
       }
     ]
@@ -33470,12 +33470,12 @@
       },
       {
         "id": 1,
-        "terme": "<p>validité</p>",
+        "terme": "validité",
         "groupe": 3
       },
       {
         "id": 2,
-        "terme": "<p>applicabilité</p>",
+        "terme": "applicabilité",
         "groupe": 3
       }
     ]
@@ -33557,7 +33557,7 @@
       },
       {
         "id": 15,
-        "terme": "<p>donner suite</p>",
+        "terme": "donner suite",
         "groupe": 2
       },
       {
@@ -33567,7 +33567,7 @@
       },
       {
         "id": 14,
-        "terme": "<p>faire droit&nbsp;</p>",
+        "terme": "faire droit&nbsp;",
         "groupe": 2
       },
       {
@@ -33577,7 +33577,7 @@
       },
       {
         "id": 13,
-        "terme": "<p>homologuer</p>",
+        "terme": "homologuer",
         "groupe": 2
       },
       {
@@ -34058,7 +34058,7 @@
       },
       {
         "id": 1,
-        "terme": "<p>adapté à</p>",
+        "terme": "adapté à",
         "groupe": 2
       }
     ]
@@ -34231,7 +34231,7 @@
       },
       {
         "id": 9,
-        "terme": "<p>principal</p>",
+        "terme": "principal",
         "groupe": 1
       }
     ]
@@ -34388,7 +34388,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>compagnie (commercial)</p>",
+        "terme": "compagnie (commercial)",
         "groupe": 2
       }
     ]
@@ -34480,7 +34480,7 @@
       },
       {
         "id": 5,
-        "terme": "<p><span style=\"font-size: 14px; letter-spacing: normal; background-color: rgb(248, 249, 250);\">visage (p. ex. révéler son vrai visage)</span><br></p>",
+        "terme": "visage (p. ex. révéler son vrai visage)",
         "groupe": 4
       },
       {
@@ -35071,12 +35071,12 @@
       },
       {
         "id": 1,
-        "terme": "<p>de façon crédible</p>",
+        "terme": "de façon crédible",
         "groupe": 2
       },
       {
         "id": 2,
-        "terme": "<p>de manière vraisemblable</p>",
+        "terme": "de manière vraisemblable",
         "groupe": 2
       },
       {
@@ -35213,7 +35213,7 @@
       },
       {
         "id": 1,
-        "terme": "<p>indifférent</p>",
+        "terme": "indifférent",
         "groupe": 2
       },
       {
@@ -37609,7 +37609,7 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "<p class=\"MsoNormal\" style=\"margin: 0cm; font-size: 12pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); letter-spacing: normal;\"><span lang=\"FR-CH\">même<o:p></o:p></span></p>",
+        "terme": "même",
         "groupe": 1
       },
       {
@@ -39171,12 +39171,12 @@
       },
       {
         "id": 2,
-        "terme": "<p>retraite monastique</p>",
+        "terme": "retraite monastique",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>clôture du monastère</p>",
+        "terme": "clôture du monastère",
         "groupe": 1
       }
     ]
@@ -40145,17 +40145,17 @@
     "traductions": [
       {
         "id": 3,
-        "terme": "<p>plus invasif</p>",
+        "terme": "plus invasif",
         "groupe": 4
       },
       {
         "id": 2,
-        "terme": "<p>plus restrictif</p>",
+        "terme": "plus restrictif",
         "groupe": 4
       },
       {
         "id": 1,
-        "terme": "<p>plus contraignant</p>",
+        "terme": "plus contraignant",
         "groupe": 4
       },
       {
@@ -40287,17 +40287,17 @@
       },
       {
         "id": 3,
-        "terme": "connaissance<br>",
+        "terme": "connaissance",
         "groupe": 1
       },
       {
         "id": 4,
-        "terme": "<span style=\"caret-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background-color: rgb(248, 249, 250);\">compétence</span><br>",
+        "terme": "compétence",
         "groupe": 1
       },
       {
         "id": 5,
-        "terme": "<p><span style=\"font-size: 14px; letter-spacing: normal; background-color: rgb(248, 249, 250);\">enseignement de</span><br></p>",
+        "terme": "enseignement de",
         "groupe": 1
       },
       {
@@ -40490,7 +40490,7 @@
       },
       {
         "id": 9,
-        "terme": "<p>labile</p>",
+        "terme": "labile",
         "groupe": 2
       },
       {
@@ -42339,7 +42339,7 @@
       },
       {
         "id": 14,
-        "terme": "<p><span style=\"font-size: 14px; letter-spacing: normal; background-color: rgb(248, 249, 250);\">fondé sur l'économie de marché</span><br></p>",
+        "terme": "fondé sur l'économie de marché",
         "groupe": 1
       }
     ]
@@ -43763,7 +43763,7 @@
       },
       {
         "id": 4,
-        "terme": "requérir qqn pour accomplir une&nbsp;<span style=\"font-size: 10pt; font-family: Arial, sans-serif;\">œuvre</span><span style=\"font-family: -webkit-standard; font-size: medium;\"></span>&nbsp;collective",
+        "terme": "requérir qqn pour accomplir une&nbsp;œuvre&nbsp;collective",
         "groupe": 1
       },
       {
@@ -44365,7 +44365,7 @@
       },
       {
         "id": 1,
-        "terme": "<p><span style=\"font-size: 14px; letter-spacing: normal; background-color: rgb(248, 249, 250);\">provoquer qn en duel</span><br></p>",
+        "terme": "provoquer qn en duel",
         "groupe": 2
       }
     ]
@@ -47536,7 +47536,7 @@
       },
       {
         "id": 1,
-        "terme": "<p>mémoire d'entente</p>",
+        "terme": "mémoire d'entente",
         "groupe": 2
       }
     ]
@@ -51993,7 +51993,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>colonie (p. ex. d'habitation)</p>",
+        "terme": "colonie (p. ex. d'habitation)",
         "groupe": 2
       }
     ]
@@ -52630,7 +52630,7 @@
       },
       {
         "id": 1,
-        "terme": "<p>avoir</p>",
+        "terme": "avoir",
         "groupe": 2
       },
       {
@@ -52650,12 +52650,12 @@
       },
       {
         "id": 3,
-        "terme": "<p>effectif (prévu)</p>",
+        "terme": "effectif (prévu)",
         "groupe": 2
       },
       {
         "id": 2,
-        "terme": "<p>inventaire (théorique)</p>",
+        "terme": "inventaire (théorique)",
         "groupe": 2
       }
     ]
@@ -55816,7 +55816,7 @@
       },
       {
         "id": 1,
-        "terme": "<p>dernier délai</p>",
+        "terme": "dernier délai",
         "groupe": 3
       }
     ]
@@ -70571,7 +70571,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>démantèlement salarial</p>",
+        "terme": "démantèlement salarial",
         "groupe": 1
       }
     ]
@@ -70635,7 +70635,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>déstockage</p>",
+        "terme": "déstockage",
         "groupe": 1
       },
       {
@@ -70741,17 +70741,17 @@
       },
       {
         "id": 1,
-        "terme": "<p>étudié</p>",
+        "terme": "étudié",
         "groupe": 3
       },
       {
         "id": 2,
-        "terme": "<p>évalué</p>",
+        "terme": "évalué",
         "groupe": 3
       },
       {
         "id": 3,
-        "terme": "<p>examiné</p>",
+        "terme": "examiné",
         "groupe": 3
       }
     ]
@@ -71143,7 +71143,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>augmentation</p>",
+        "terme": "augmentation",
         "groupe": 1
       }
     ]
@@ -71302,7 +71302,7 @@
       },
       {
         "id": 5,
-        "terme": "<p>processus d'entreprise</p>",
+        "terme": "processus d'entreprise",
         "groupe": 1
       }
     ]
@@ -71370,7 +71370,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>banque de virement</p>",
+        "terme": "banque de virement",
         "groupe": 1
       }
     ]
@@ -71768,7 +71768,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>scène marginale</p>",
+        "terme": "scène marginale",
         "groupe": 1
       }
     ]
@@ -72215,7 +72215,7 @@
       },
       {
         "id": 1,
-        "terme": "<p>jugement convenu&nbsp;</p>",
+        "terme": "jugement convenu&nbsp;",
         "groupe": 3
       }
     ]
@@ -72242,7 +72242,7 @@
       },
       {
         "id": 2,
-        "terme": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px; letter-spacing: normal;\">délai utile</span><br></p>",
+        "terme": "délai utile",
         "groupe": 1
       }
     ]
@@ -72269,12 +72269,12 @@
       },
       {
         "id": 2,
-        "terme": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px; letter-spacing: normal;\">fournitures de bureau&nbsp;</span><br></p>",
+        "terme": "fournitures de bureau&nbsp;",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px; letter-spacing: normal;\">équipement de bureau</span><br></p>",
+        "terme": "équipement de bureau",
         "groupe": 1
       }
     ]
@@ -72306,7 +72306,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>destinataire</p>",
+        "terme": "destinataire",
         "groupe": 1
       }
     ]
@@ -72359,7 +72359,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>frais (de service)</p>",
+        "terme": "frais (de service)",
         "groupe": 1
       }
     ]
@@ -72392,12 +72392,12 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "instructions <br>",
+        "terme": "instructions",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>mode d'emploi\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "mode d'emploi",
         "groupe": 1
       }
     ]
@@ -72419,12 +72419,12 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "erreur de commande <br>",
+        "terme": "erreur de commande",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>fausse manoeuvre\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "fausse manoeuvre",
         "groupe": 1
       }
     ]
@@ -72678,7 +72678,7 @@
       },
       {
         "id": 2,
-        "terme": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px; letter-spacing: normal;\">les règles (de la civilité, de la bienséance)</span><br></p>",
+        "terme": "les règles (de la civilité, de la bienséance)",
         "groupe": 1
       }
     ]
@@ -73285,7 +73285,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>délégué</p>",
+        "terme": "délégué",
         "groupe": 1
       }
     ]
@@ -73545,7 +73545,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>indemnité pour perte de gain</p>",
+        "terme": "indemnité pour perte de gain",
         "groupe": 1
       }
     ]
@@ -73653,7 +73653,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>taux d'utilisation</p>",
+        "terme": "taux d'utilisation",
         "groupe": 1
       },
       {
@@ -73669,12 +73669,12 @@
     "traductions": [
       {
         "id": 2,
-        "terme": "<p>occupé</p>",
+        "terme": "occupé",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>complet</p>",
+        "terme": "complet",
         "groupe": 1
       },
       {
@@ -73700,7 +73700,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>taux d'exploitation</p>",
+        "terme": "taux d'exploitation",
         "groupe": 1
       }
     ]
@@ -73721,7 +73721,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>pertinence</p>",
+        "terme": "pertinence",
         "groupe": 1
       }
     ]
@@ -74082,7 +74082,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>diminution</p>",
+        "terme": "diminution",
         "groupe": 1
       },
       {
@@ -74299,12 +74299,12 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "abstrait <br>",
+        "terme": "abstrait",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>conceptuel\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "conceptuel",
         "groupe": 1
       }
     ]
@@ -74342,12 +74342,12 @@
       },
       {
         "id": 2,
-        "terme": "<p>borné <br></p>",
+        "terme": "borné",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>qui a la tête dure</p>",
+        "terme": "qui a la tête dure",
         "groupe": 1
       }
     ]
@@ -74358,7 +74358,7 @@
     "traductions": [
       {
         "id": 5,
-        "terme": "<p>obliger à</p>",
+        "terme": "obliger à",
         "groupe": 1
       },
       {
@@ -74378,7 +74378,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>insister</p>",
+        "terme": "insister",
         "groupe": 1
       }
     ]
@@ -74394,7 +74394,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>séance</p>",
+        "terme": "séance",
         "groupe": 1
       },
       {
@@ -74409,17 +74409,17 @@
       },
       {
         "id": 1,
-        "terme": "<p>jeu</p>",
+        "terme": "jeu",
         "groupe": 2
       },
       {
         "id": 2,
-        "terme": "<p>proposition</p>",
+        "terme": "proposition",
         "groupe": 2
       },
       {
         "id": 3,
-        "terme": "<p>procédé</p>",
+        "terme": "procédé",
         "groupe": 2
       }
     ]
@@ -74512,7 +74512,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>commettant</p>",
+        "terme": "commettant",
         "groupe": 1
       }
     ]
@@ -74665,12 +74665,12 @@
       },
       {
         "id": 4,
-        "terme": "<p>limite (adj.)</p>",
+        "terme": "limite (adj.)",
         "groupe": 5
       },
       {
         "id": 5,
-        "terme": "<p>critique (adj.)</p>",
+        "terme": "critique (adj.)",
         "groupe": 5
       },
       {
@@ -74911,17 +74911,17 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "affirmatif <br>",
+        "terme": "affirmatif",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>positif <br></p>",
+        "terme": "positif",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>constructif\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "constructif",
         "groupe": 1
       }
     ]
@@ -74937,17 +74937,17 @@
       },
       {
         "id": 2,
-        "terme": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px; letter-spacing: normal;\">réponse affirmative&nbsp;</span><br></p>",
+        "terme": "réponse affirmative&nbsp;",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px; letter-spacing: normal;\">réponse positive&nbsp;</span><br></p>",
+        "terme": "réponse positive&nbsp;",
         "groupe": 1
       },
       {
         "id": 4,
-        "terme": "<p><span style=\"color: rgb(0, 0, 0); font-size: 14px; letter-spacing: normal;\">réponse favorable</span><br></p>",
+        "terme": "réponse favorable",
         "groupe": 1
       }
     ]
@@ -74958,17 +74958,17 @@
     "traductions": [
       {
         "id": 2,
-        "terme": "<p>en cas d'approbation&nbsp;\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "en cas d'approbation&nbsp;",
         "groupe": 1
       },
       {
         "id": 1,
-        "terme": "dans l'affirmative <br>",
+        "terme": "dans l'affirmative",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>en cas de réponse positive</p>",
+        "terme": "en cas de réponse positive",
         "groupe": 1
       },
       {
@@ -75011,7 +75011,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>école libre (France</p>",
+        "terme": "école libre (France",
         "groupe": 1
       }
     ]
@@ -75022,7 +75022,7 @@
     "traductions": [
       {
         "id": 2,
-        "terme": "<p>fidèle à ses convictions</p>",
+        "terme": "fidèle à ses convictions",
         "groupe": 1
       },
       {
@@ -75043,12 +75043,12 @@
       },
       {
         "id": 3,
-        "terme": "<p>aboutir</p>",
+        "terme": "aboutir",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>mijoter qqc</p>",
+        "terme": "mijoter qqc",
         "groupe": 1
       }
     ]
@@ -75096,22 +75096,22 @@
     "traductions": [
       {
         "id": 4,
-        "terme": "<p>découlant de</p>",
+        "terme": "découlant de",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>tiré de</p>",
+        "terme": "tiré de",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>dérivé</p>",
+        "terme": "dérivé",
         "groupe": 1
       },
       {
         "id": 1,
-        "terme": "<p>déduit</p>",
+        "terme": "déduit",
         "groupe": 1
       }
     ]
@@ -75143,12 +75143,12 @@
     "traductions": [
       {
         "id": 2,
-        "terme": "<p>d’importance\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "d’importance",
         "groupe": 1
       },
       {
         "id": 1,
-        "terme": "considérable <br>",
+        "terme": "considérable",
         "groupe": 1
       }
     ]
@@ -75342,7 +75342,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>actionnaire</p>",
+        "terme": "actionnaire",
         "groupe": 1
       }
     ]
@@ -75455,7 +75455,7 @@
       },
       {
         "id": 5,
-        "terme": "<p>société de défaisance<br></p>",
+        "terme": "société de défaisance",
         "groupe": 1
       }
     ]
@@ -75471,7 +75471,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>apports d'actionnaires</p>",
+        "terme": "apports d'actionnaires",
         "groupe": 1
       }
     ]
@@ -75498,7 +75498,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>capital</p>",
+        "terme": "capital",
         "groupe": 1
       },
       {
@@ -75598,12 +75598,12 @@
       },
       {
         "id": 2,
-        "terme": "<p>fiduciaire<br></p>",
+        "terme": "fiduciaire",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>compagnie fiduciaire<br></p>",
+        "terme": "compagnie fiduciaire",
         "groupe": 1
       }
     ]
@@ -75662,7 +75662,7 @@
       },
       {
         "id": 1,
-        "terme": "<p>lit d'appoint</p>",
+        "terme": "lit d'appoint",
         "groupe": 2
       }
     ]
@@ -75678,7 +75678,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>accueil</p>",
+        "terme": "accueil",
         "groupe": 1
       }
     ]
@@ -75704,7 +75704,7 @@
       },
       {
         "id": 1,
-        "terme": "<p>pays hôte</p>",
+        "terme": "pays hôte",
         "groupe": 2
       }
     ]
@@ -75751,7 +75751,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>secteur hôtelier</p>",
+        "terme": "secteur hôtelier",
         "groupe": 1
       }
     ]
@@ -75798,7 +75798,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>conférencier invité</p>",
+        "terme": "conférencier invité",
         "groupe": 1
       }
     ]
@@ -75926,17 +75926,17 @@
       },
       {
         "id": 2,
-        "terme": "<p>hébergement</p>",
+        "terme": "hébergement",
         "groupe": 2
       },
       {
         "id": 3,
-        "terme": "<p>chambre d'hôtes</p>",
+        "terme": "chambre d'hôtes",
         "groupe": 2
       },
       {
         "id": 4,
-        "terme": "<p>maison d'accueil</p>",
+        "terme": "maison d'accueil",
         "groupe": 2
       }
     ]
@@ -75968,7 +75968,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>structure générale</p>",
+        "terme": "structure générale",
         "groupe": 1
       }
     ]
@@ -76045,7 +76045,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>agréable à manger</p>",
+        "terme": "agréable à manger",
         "groupe": 1
       },
       {
@@ -76111,12 +76111,12 @@
       },
       {
         "id": 7,
-        "terme": "<p>conforme</p>",
+        "terme": "conforme",
         "groupe": 1
       },
       {
         "id": 8,
-        "terme": "<p>comme il faut</p>",
+        "terme": "comme il faut",
         "groupe": 1
       }
     ]
@@ -76378,7 +76378,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>conforme aux règles du marché</p>",
+        "terme": "conforme aux règles du marché",
         "groupe": 1
       },
       {
@@ -76425,12 +76425,12 @@
       },
       {
         "id": 2,
-        "terme": "<p><span style=\"font-size: 14px; letter-spacing: normal; background-color: rgb(248, 249, 250);\">adapté au matériau</span><br></p>",
+        "terme": "adapté au matériau",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p><span style=\"font-size: 14px; letter-spacing: normal; background-color: rgb(248, 249, 250);\">adapté au matériel</span><br></p>",
+        "terme": "adapté au matériel",
         "groupe": 1
       }
     ]
@@ -76446,7 +76446,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>société immobilière</p>",
+        "terme": "société immobilière",
         "groupe": 1
       }
     ]
@@ -76457,17 +76457,17 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "<p>société commerciale<br></p>",
+        "terme": "société commerciale",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>entreprise commerciale<br></p>",
+        "terme": "entreprise commerciale",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>société de négoce<br></p>",
+        "terme": "société de négoce",
         "groupe": 1
       }
     ]
@@ -76489,7 +76489,7 @@
     "traductions": [
       {
         "id": 2,
-        "terme": "<p>objet social</p>",
+        "terme": "objet social",
         "groupe": 1
       },
       {
@@ -76568,7 +76568,7 @@
       },
       {
         "id": 6,
-        "terme": "<p>convivialité</p>",
+        "terme": "convivialité",
         "groupe": 1
       }
     ]
@@ -76636,7 +76636,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>admissible</p>",
+        "terme": "admissible",
         "groupe": 1
       }
     ]
@@ -76737,7 +76737,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>perte de bénéfice(s)</p>",
+        "terme": "perte de bénéfice(s)",
         "groupe": 1
       }
     ]
@@ -76785,12 +76785,12 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "<p>compte de résultat<br></p>",
+        "terme": "compte de résultat",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>compte de (pertes et) profits<br></p>",
+        "terme": "compte de (pertes et) profits",
         "groupe": 1
       }
     ]
@@ -76817,7 +76817,7 @@
     "traductions": [
       {
         "id": 3,
-        "terme": "<p>mécène</p>",
+        "terme": "mécène",
         "groupe": 1
       },
       {
@@ -76827,7 +76827,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>bienfaiteur</p>",
+        "terme": "bienfaiteur",
         "groupe": 1
       }
     ]
@@ -76843,12 +76843,12 @@
       },
       {
         "id": 2,
-        "terme": "<p>impôt sur le transfert immobilier</p>",
+        "terme": "impôt sur le transfert immobilier",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>lods</p>",
+        "terme": "lods",
         "groupe": 1
       }
     ]
@@ -76869,7 +76869,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>lods</p>",
+        "terme": "lods",
         "groupe": 1
       }
     ]
@@ -77075,12 +77075,12 @@
       },
       {
         "id": 2,
-        "terme": "<p>flèche indicatrice</p>",
+        "terme": "flèche indicatrice",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>flèche indicative</p>",
+        "terme": "flèche indicative",
         "groupe": 1
       }
     ]
@@ -77111,7 +77111,7 @@
       },
       {
         "id": 5,
-        "terme": "<p>écriteau</p>",
+        "terme": "écriteau",
         "groupe": 1
       }
     ]
@@ -77278,7 +77278,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>droit régalien</p>",
+        "terme": "droit régalien",
         "groupe": 1
       }
     ]
@@ -77310,12 +77310,12 @@
       },
       {
         "id": 3,
-        "terme": "<p>droit de monnayage</p>",
+        "terme": "droit de monnayage",
         "groupe": 1
       },
       {
         "id": 4,
-        "terme": "<p>autorité monétaire</p>",
+        "terme": "autorité monétaire",
         "groupe": 1
       }
     ]
@@ -77347,7 +77347,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>signe distinctif de nationalité</p>",
+        "terme": "signe distinctif de nationalité",
         "groupe": 1
       }
     ]
@@ -77654,7 +77654,7 @@
       },
       {
         "id": 1,
-        "terme": "<p>permission</p>",
+        "terme": "permission",
         "groupe": 2
       }
     ]
@@ -77784,17 +77784,17 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "exemplaire justificatif <br>",
+        "terme": "exemplaire justificatif",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>numéro de journal justificatif (journaux)&nbsp;\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "numéro de journal justificatif (journaux)&nbsp;",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>justificatif (annonce)</p>",
+        "terme": "justificatif (annonce)",
         "groupe": 1
       }
     ]
@@ -77816,7 +77816,7 @@
     "traductions": [
       {
         "id": 2,
-        "terme": "<p> pièce justificative&nbsp;\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "pièce justificative&nbsp;",
         "groupe": 1
       },
       {
@@ -77826,7 +77826,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>bordereau de compte(s)</p>",
+        "terme": "bordereau de compte(s)",
         "groupe": 1
       }
     ]
@@ -77848,17 +77848,17 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "document original <br>",
+        "terme": "document original",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>justificatif <br></p>",
+        "terme": "justificatif",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>pièce comptable\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "pièce comptable",
         "groupe": 1
       }
     ]
@@ -77922,12 +77922,12 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "original <br>",
+        "terme": "original",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>document original\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "document original",
         "groupe": 1
       }
     ]
@@ -78148,17 +78148,17 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "remaniement parcellaire <br>",
+        "terme": "remaniement parcellaire",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>remembrement des parcelles /rural&nbsp;\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "remembrement des parcelles /rural&nbsp;",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>concentration parcellaire</p>",
+        "terme": "concentration parcellaire",
         "groupe": 1
       }
     ]
@@ -78184,7 +78184,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>apuration d'une dette</p>",
+        "terme": "apuration d'une dette",
         "groupe": 1
       }
     ]
@@ -78211,7 +78211,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>procédure d'élimination des divergences</p>",
+        "terme": "procédure d'élimination des divergences",
         "groupe": 1
       }
     ]
@@ -78378,7 +78378,7 @@
       },
       {
         "id": 5,
-        "terme": "<p>dévoué</p>",
+        "terme": "dévoué",
         "groupe": 1
       }
     ]
@@ -78575,7 +78575,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>marchés publics</p>",
+        "terme": "marchés publics",
         "groupe": 1
       }
     ]
@@ -78655,22 +78655,22 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "qui peut délibérer valablement <br>",
+        "terme": "qui peut délibérer valablement",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>qui peut délibérer en nombre suffisant <br></p>",
+        "terme": "qui peut délibérer en nombre suffisant",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>qui atteint le quorum&nbsp;\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "qui atteint le quorum&nbsp;",
         "groupe": 1
       },
       {
         "id": 4,
-        "terme": "<p>qui est habilité à prendre une décision</p>",
+        "terme": "qui est habilité à prendre une décision",
         "groupe": 1
       }
     ]
@@ -78735,7 +78735,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>conseil d'enquête<br></p>",
+        "terme": "conseil d'enquête",
         "groupe": 1
       }
     ]
@@ -78746,17 +78746,17 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "procédure d'investigation <br>",
+        "terme": "procédure d'investigation",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>\r\ninformation préliminaire <br></p>",
+        "terme": "information préliminaire",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>enquête</p>",
+        "terme": "enquête",
         "groupe": 1
       }
     ]
@@ -78788,12 +78788,12 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "<p>(au niveau de) la direction<br></p>",
+        "terme": "(au niveau de) la direction",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>échelon hiérarchique<br></p>",
+        "terme": "échelon hiérarchique",
         "groupe": 1
       }
     ]
@@ -78903,12 +78903,12 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "résistant à la chaleur <br>",
+        "terme": "résistant à la chaleur",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>non sensible à la chaleur\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "non sensible à la chaleur",
         "groupe": 1
       }
     ]
@@ -78919,7 +78919,7 @@
     "traductions": [
       {
         "id": 5,
-        "terme": "<p>collaborateurs</p>",
+        "terme": "collaborateurs",
         "groupe": 1
       },
       {
@@ -78988,12 +78988,12 @@
       },
       {
         "id": 3,
-        "terme": "garantie de remboursement des frais <i>(dans un arrêt du Tribunal fédéral des assurances)\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</i>",
+        "terme": "garantie de remboursement des frais (dans un arrêt du Tribunal fédéral des assurances)",
         "groupe": 1
       },
       {
         "id": 1,
-        "terme": "garantie de prise en charge des frais<i> \r\n(source: Tribunal fédéral des assurances)\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</i>",
+        "terme": "garantie de prise en charge des frais \r\n(source: Tribunal fédéral des assurances)",
         "groupe": 1
       },
       {
@@ -79289,7 +79289,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>avancement au mérite (par opposition à&nbsp; avancement à l'ancienneté</p>",
+        "terme": "avancement au mérite (par opposition à&nbsp; avancement à l'ancienneté",
         "groupe": 1
       }
     ]
@@ -79349,7 +79349,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>valeur de référence</p>",
+        "terme": "valeur de référence",
         "groupe": 1
       }
     ]
@@ -79365,22 +79365,22 @@
       },
       {
         "id": 2,
-        "terme": "<p>prix de souscription <br></p>",
+        "terme": "prix de souscription",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>prix d'abonnement <br></p>",
+        "terme": "prix d'abonnement",
         "groupe": 1
       },
       {
         "id": 4,
-        "terme": "<p>prix de référence <br></p>",
+        "terme": "prix de référence",
         "groupe": 1
       },
       {
         "id": 5,
-        "terme": "<p>prix d'approvisionnement</p>",
+        "terme": "prix d'approvisionnement",
         "groupe": 1
       }
     ]
@@ -79391,17 +79391,17 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "droit à la livraison <br>",
+        "terme": "droit à la livraison",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>droit préférentiel <br></p>",
+        "terme": "droit préférentiel",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>droit de souscription (actions)\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "droit de souscription (actions)",
         "groupe": 1
       }
     ]
@@ -79417,12 +79417,12 @@
       },
       {
         "id": 2,
-        "terme": "<p>\r\norigine <br></p>",
+        "terme": "origine",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>fournisseur(s)\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "fournisseur(s)",
         "groupe": 1
       }
     ]
@@ -79433,12 +79433,12 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "sans ticket <br>",
+        "terme": "sans ticket",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>libre (marchandise)\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "libre (marchandise)",
         "groupe": 1
       }
     ]
@@ -79481,17 +79481,17 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "afférent à <br>",
+        "terme": "afférent à",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>qui a trait à&nbsp;\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "qui a trait à&nbsp;",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>s'agissant de</p>",
+        "terme": "s'agissant de",
         "groupe": 1
       }
     ]
@@ -79502,17 +79502,17 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "personne touchant un traitement <br>",
+        "terme": "personne touchant un traitement",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>personne touchant un salaire&nbsp;\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "personne touchant un salaire&nbsp;",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>salarié</p>",
+        "terme": "salarié",
         "groupe": 1
       }
     ]
@@ -79523,12 +79523,12 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "personne bénéficiant de plusieurs prestations <br>",
+        "terme": "personne bénéficiant de plusieurs prestations",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>personne cumulant plusieurs prestations\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>",
+        "terme": "personne cumulant plusieurs prestations",
         "groupe": 1
       }
     ]
@@ -79555,7 +79555,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>titulaire d'une rente</p>",
+        "terme": "titulaire d'une rente",
         "groupe": 1
       }
     ]
@@ -79630,22 +79630,22 @@
       },
       {
         "id": 2,
-        "terme": "<p>don de représenter&nbsp;\r\n</p>",
+        "terme": "don de représenter&nbsp;",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>don d'imitation <br></p>",
+        "terme": "don d'imitation",
         "groupe": 1
       },
       {
         "id": 4,
-        "terme": "<p>talent <br></p>",
+        "terme": "talent",
         "groupe": 1
       },
       {
         "id": 5,
-        "terme": "<p>mimique</p>",
+        "terme": "mimique",
         "groupe": 1
       }
     ]
@@ -80058,17 +80058,17 @@
       },
       {
         "id": 2,
-        "terme": "<p>droit d'intervention</p>",
+        "terme": "droit d'intervention",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>droit de regard</p>",
+        "terme": "droit de regard",
         "groupe": 1
       },
       {
         "id": 4,
-        "terme": "<p>avoir voix au chapitre</p>",
+        "terme": "avoir voix au chapitre",
         "groupe": 1
       }
     ]
@@ -80458,12 +80458,12 @@
     "traductions": [
       {
         "id": 2,
-        "terme": "<p>zone de détente <br></p>",
+        "terme": "zone de détente",
         "groupe": 1
       },
       {
         "id": 1,
-        "terme": "zone de villégiature<br>",
+        "terme": "zone de villégiature",
         "groupe": 1
       }
     ]
@@ -80546,7 +80546,7 @@
       },
       {
         "id": 5,
-        "terme": "<p><span style=\"font-size: 14px; letter-spacing: normal; background-color: rgb(248, 249, 250);\">axé sur le marché</span><br></p>",
+        "terme": "axé sur le marché",
         "groupe": 1
       }
     ]
@@ -80855,7 +80855,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>certificat de travail</p>",
+        "terme": "certificat de travail",
         "groupe": 1
       }
     ]
@@ -81093,7 +81093,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>preuve de réception</p>",
+        "terme": "preuve de réception",
         "groupe": 1
       }
     ]
@@ -81267,7 +81267,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>répondant aux besoins du marché</p>",
+        "terme": "répondant aux besoins du marché",
         "groupe": 1
       },
       {
@@ -81745,7 +81745,7 @@
       },
       {
         "id": 4,
-        "terme": "<p><span style=\"font-size: 14px; letter-spacing: normal; background-color: rgb(248, 249, 250);\">placement dans une/en institution</span><br></p>",
+        "terme": "placement dans une/en institution",
         "groupe": 1
       }
     ]
@@ -81793,12 +81793,12 @@
       },
       {
         "id": 2,
-        "terme": "<p>soins prodigués aux enfants</p>",
+        "terme": "soins prodigués aux enfants",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>soins pédiatriques</p>",
+        "terme": "soins pédiatriques",
         "groupe": 1
       }
     ]
@@ -81830,7 +81830,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>hygiène corporelle</p>",
+        "terme": "hygiène corporelle",
         "groupe": 1
       }
     ]
@@ -81862,12 +81862,12 @@
       },
       {
         "id": 3,
-        "terme": "<p>gestion des cours</p>",
+        "terme": "gestion des cours",
         "groupe": 1
       },
       {
         "id": 4,
-        "terme": "<p>maintien des cours</p>",
+        "terme": "maintien des cours",
         "groupe": 1
       }
     ]
@@ -82506,7 +82506,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>de près</p>",
+        "terme": "de près",
         "groupe": 1
       },
       {
@@ -82533,7 +82533,7 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "<p>contre-interrogatoire</p>",
+        "terme": "contre-interrogatoire",
         "groupe": 1
       }
     ]
@@ -82971,7 +82971,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>image des villes</p>",
+        "terme": "image des villes",
         "groupe": 1
       }
     ]
@@ -83029,12 +83029,12 @@
       },
       {
         "id": 4,
-        "terme": "<p>département spécialisé</p>",
+        "terme": "département spécialisé",
         "groupe": 1
       },
       {
         "id": 5,
-        "terme": "<p>service technique</p>",
+        "terme": "service technique",
         "groupe": 1
       }
     ]
@@ -83055,7 +83055,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>travail de recherche</p>",
+        "terme": "travail de recherche",
         "groupe": 1
       }
     ]
@@ -83092,7 +83092,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>terme spécialisé</p>",
+        "terme": "terme spécialisé",
         "groupe": 1
       }
     ]
@@ -83236,7 +83236,7 @@
       },
       {
         "id": 6,
-        "terme": "<p>employés qualifiés&nbsp;</p>",
+        "terme": "employés qualifiés&nbsp;",
         "groupe": 1
       },
       {
@@ -83304,7 +83304,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>école technique</p>",
+        "terme": "école technique",
         "groupe": 1
       }
     ]
@@ -83382,7 +83382,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>dans les milieux spécialisés</p>",
+        "terme": "dans les milieux spécialisés",
         "groupe": 1
       }
     ]
@@ -83487,12 +83487,12 @@
       },
       {
         "id": 7,
-        "terme": "<p>vétuste</p>",
+        "terme": "vétuste",
         "groupe": 1
       },
       {
         "id": 8,
-        "terme": "<p>en mauvais état</p>",
+        "terme": "en mauvais état",
         "groupe": 1
       }
     ]
@@ -83523,7 +83523,7 @@
       },
       {
         "id": 6,
-        "terme": "<p>stupéfait</p>",
+        "terme": "stupéfait",
         "groupe": 1
       },
       {
@@ -83549,7 +83549,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>incrédulité</p>",
+        "terme": "incrédulité",
         "groupe": 1
       }
     ]
@@ -83791,7 +83791,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>pollinisation croisée</p>",
+        "terme": "pollinisation croisée",
         "groupe": 1
       }
     ]
@@ -83812,12 +83812,12 @@
       },
       {
         "id": 3,
-        "terme": "<p>goût désagréable</p>",
+        "terme": "goût désagréable",
         "groupe": 1
       },
       {
         "id": 4,
-        "terme": "<p>goût étranger</p>",
+        "terme": "goût étranger",
         "groupe": 1
       }
     ]
@@ -83879,7 +83879,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>capitaux externes</p>",
+        "terme": "capitaux externes",
         "groupe": 1
       }
     ]
@@ -84063,7 +84063,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>coûts externes</p>",
+        "terme": "coûts externes",
         "groupe": 1
       }
     ]
@@ -84079,7 +84079,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>corps étranger</p>",
+        "terme": "corps étranger",
         "groupe": 1
       },
       {
@@ -84136,7 +84136,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>assurance pour le compte d'un tiers</p>",
+        "terme": "assurance pour le compte d'un tiers",
         "groupe": 1
       }
     ]
@@ -84215,7 +84215,7 @@
       },
       {
         "id": 5,
-        "terme": "<p>affable</p>",
+        "terme": "affable",
         "groupe": 1
       }
     ]
@@ -84247,17 +84247,17 @@
     "traductions": [
       {
         "id": 3,
-        "terme": "<p>physiologiquement sans défaut</p>",
+        "terme": "physiologiquement sans défaut",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>ergonomique</p>",
+        "terme": "ergonomique",
         "groupe": 1
       },
       {
         "id": 1,
-        "terme": "<p>en harmonie avec l'organisme</p>",
+        "terme": "en harmonie avec l'organisme",
         "groupe": 1
       }
     ]
@@ -84310,7 +84310,7 @@
     "traductions": [
       {
         "id": 3,
-        "terme": "<p>plus qu'amical</p>",
+        "terme": "plus qu'amical",
         "groupe": 1
       },
       {
@@ -84325,7 +84325,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>trop aimable</p>",
+        "terme": "trop aimable",
         "groupe": 1
       }
     ]
@@ -84425,7 +84425,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>travailleuse sociale</p>",
+        "terme": "travailleuse sociale",
         "groupe": 1
       }
     ]
@@ -84462,7 +84462,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>organisme d'assistance<br></p>",
+        "terme": "organisme d'assistance",
         "groupe": 1
       }
     ]
@@ -84606,7 +84606,7 @@
       },
       {
         "id": 1,
-        "terme": "<p>visite guidée</p>",
+        "terme": "visite guidée",
         "groupe": 3
       }
     ]
@@ -84779,12 +84779,12 @@
     "traductions": [
       {
         "id": 2,
-        "terme": "<p>fastidieux</p>",
+        "terme": "fastidieux",
         "groupe": 1
       },
       {
         "id": 1,
-        "terme": "<p>coûteux</p>",
+        "terme": "coûteux",
         "groupe": 1
       }
     ]
@@ -84842,7 +84842,7 @@
       },
       {
         "id": 1,
-        "terme": "<p>saisir la portée&nbsp; (figuré)</p>",
+        "terme": "saisir la portée&nbsp; (figuré)",
         "groupe": 2
       },
       {
@@ -86194,7 +86194,7 @@
       },
       {
         "id": 22,
-        "terme": "<p>état statistique</p>",
+        "terme": "état statistique",
         "groupe": 1
       }
     ]
@@ -86277,7 +86277,7 @@
       },
       {
         "id": 8,
-        "terme": "<p>immédiatement compréhensible&nbsp;</p>",
+        "terme": "immédiatement compréhensible&nbsp;",
         "groupe": 1
       },
       {
@@ -86827,7 +86827,7 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "<p>forme de \"durchweg\" usitée en CH, au Sud de l'Allemagne et en Autriche<br></p>",
+        "terme": "forme de \"durchweg\" usitée en CH, au Sud de l'Allemagne et en Autriche",
         "groupe": 1
       }
     ]
@@ -86912,7 +86912,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>expérience industrielle</p>",
+        "terme": "expérience industrielle",
         "groupe": 1
       },
       {
@@ -87232,32 +87232,32 @@
       },
       {
         "id": 2,
-        "terme": "<p>changeant</p>",
+        "terme": "changeant",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>alternant</p>",
+        "terme": "alternant",
         "groupe": 1
       },
       {
         "id": 4,
-        "terme": "<p>variant</p>",
+        "terme": "variant",
         "groupe": 1
       },
       {
         "id": 5,
-        "terme": "<p>qui varie</p>",
+        "terme": "qui varie",
         "groupe": 1
       },
       {
         "id": 6,
-        "terme": "<p>marginal</p>",
+        "terme": "marginal",
         "groupe": 1
       },
       {
         "id": 7,
-        "terme": "<p>autre</p>",
+        "terme": "autre",
         "groupe": 1
       },
       {
@@ -87267,7 +87267,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>en alternance</p>",
+        "terme": "en alternance",
         "groupe": 2
       }
     ]
@@ -87656,7 +87656,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>système féodal</p>",
+        "terme": "système féodal",
         "groupe": 1
       }
     ]
@@ -87704,7 +87704,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>exploitation agricole</p>",
+        "terme": "exploitation agricole",
         "groupe": 1
       }
     ]
@@ -88176,7 +88176,7 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "<p>climat de consommation</p>",
+        "terme": "climat de consommation",
         "groupe": 1
       }
     ]
@@ -88448,7 +88448,7 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "<p>zone de pêche interdite&nbsp;</p>",
+        "terme": "zone de pêche interdite&nbsp;",
         "groupe": 2
       },
       {
@@ -88664,12 +88664,12 @@
       },
       {
         "id": 2,
-        "terme": "<p>hypocalorique</p>",
+        "terme": "hypocalorique",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>faible en calories</p>",
+        "terme": "faible en calories",
         "groupe": 1
       }
     ]
@@ -88850,7 +88850,7 @@
       },
       {
         "id": 3,
-        "terme": "<span style=\"caret-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background-color: rgb(248, 249, 250);\">qui aime s'habiller à la dernière mode</span><br>",
+        "terme": "qui aime s'habiller à la dernière mode",
         "groupe": 1
       },
       {
@@ -88860,12 +88860,12 @@
       },
       {
         "id": 4,
-        "terme": "<span style=\"caret-color: rgb(68, 68, 68); color: rgb(68, 68, 68); background-color: rgb(248, 249, 250);\">à la mode</span><br>",
+        "terme": "à la mode",
         "groupe": 1
       },
       {
         "id": 5,
-        "terme": "<p><span style=\"font-size: 14px; letter-spacing: normal; background-color: rgb(248, 249, 250);\">branché</span><br></p>",
+        "terme": "branché",
         "groupe": 1
       }
     ]
@@ -89411,7 +89411,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>bien de stricte nécessité</p>",
+        "terme": "bien de stricte nécessité",
         "groupe": 1
       }
     ]
@@ -89427,7 +89427,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>cultures de rotation</p>",
+        "terme": "cultures de rotation",
         "groupe": 1
       }
     ]
@@ -89443,7 +89443,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>pâturage clôturé</p>",
+        "terme": "pâturage clôturé",
         "groupe": 1
       },
       {
@@ -89717,7 +89717,7 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "<p>renom</p>",
+        "terme": "renom",
         "groupe": 2
       },
       {
@@ -90187,7 +90187,7 @@
       },
       {
         "id": 6,
-        "terme": "<p>marche à terme</p>",
+        "terme": "marche à terme",
         "groupe": 1
       },
       {
@@ -90208,12 +90208,12 @@
       },
       {
         "id": 2,
-        "terme": "<p>règlement à terme</p>",
+        "terme": "règlement à terme",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>paiement à terme</p>",
+        "terme": "paiement à terme",
         "groupe": 1
       }
     ]
@@ -90229,12 +90229,12 @@
       },
       {
         "id": 1,
-        "terme": "<p>décalage des dates</p>",
+        "terme": "décalage des dates",
         "groupe": 2
       },
       {
         "id": 2,
-        "terme": "<p>changement de dates</p>",
+        "terme": "changement de dates",
         "groupe": 2
       }
     ]
@@ -90261,17 +90261,17 @@
       },
       {
         "id": 2,
-        "terme": "<p>carnet de rendez-vous</p>",
+        "terme": "carnet de rendez-vous",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>agenda (électronique)</p>",
+        "terme": "agenda (électronique)",
         "groupe": 1
       },
       {
         "id": 1,
-        "terme": "<p>organiseur</p>",
+        "terme": "organiseur",
         "groupe": 2
       }
     ]
@@ -90660,12 +90660,12 @@
       },
       {
         "id": 3,
-        "terme": "<p>chef de ligne</p>",
+        "terme": "chef de ligne",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>répartiteur</p>",
+        "terme": "répartiteur",
         "groupe": 1
       }
     ]
@@ -90802,12 +90802,12 @@
       },
       {
         "id": 3,
-        "terme": "<p>formateur</p>",
+        "terme": "formateur",
         "groupe": 1
       },
       {
         "id": 4,
-        "terme": "<p>instructeur de cours</p>",
+        "terme": "instructeur de cours",
         "groupe": 1
       }
     ]
@@ -90898,7 +90898,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>Centre clientèle</p>",
+        "terme": "Centre clientèle",
         "groupe": 1
       }
     ]
@@ -91139,17 +91139,17 @@
       },
       {
         "id": 1,
-        "terme": "<p>dans les règles</p>",
+        "terme": "dans les règles",
         "groupe": 2
       },
       {
         "id": 2,
-        "terme": "<p>de manière conforme</p>",
+        "terme": "de manière conforme",
         "groupe": 2
       },
       {
         "id": 3,
-        "terme": "<p>de manière appropriée</p>",
+        "terme": "de manière appropriée",
         "groupe": 2
       }
     ]
@@ -91273,7 +91273,7 @@
       },
       {
         "id": 6,
-        "terme": "<p>taxes</p>",
+        "terme": "taxes",
         "groupe": 1
       }
     ]
@@ -91524,12 +91524,12 @@
       },
       {
         "id": 1,
-        "terme": "<p>anomalie</p>",
+        "terme": "anomalie",
         "groupe": 2
       },
       {
         "id": 2,
-        "terme": "<p>malformation</p>",
+        "terme": "malformation",
         "groupe": 2
       }
     ]
@@ -91545,7 +91545,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>déficience visuelle</p>",
+        "terme": "déficience visuelle",
         "groupe": 1
       }
     ]
@@ -91583,7 +91583,7 @@
     "traductions": [
       {
         "id": 2,
-        "terme": "<p>message d'erreur</p>",
+        "terme": "message d'erreur",
         "groupe": 1
       },
       {
@@ -91939,12 +91939,12 @@
       },
       {
         "id": 2,
-        "terme": "<p>art clinique</p>",
+        "terme": "art clinique",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>art médical</p>",
+        "terme": "art médical",
         "groupe": 1
       }
     ]
@@ -92219,7 +92219,7 @@
     "traductions": [
       {
         "id": 3,
-        "terme": "<p>indemnité compensatoire</p>",
+        "terme": "indemnité compensatoire",
         "groupe": 1
       },
       {
@@ -92808,7 +92808,7 @@
       },
       {
         "id": 5,
-        "terme": "<p>point de recoupement</p>",
+        "terme": "point de recoupement",
         "groupe": 3
       }
     ]
@@ -92855,7 +92855,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>vocation</p>",
+        "terme": "vocation",
         "groupe": 4
       },
       {
@@ -94376,7 +94376,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>odeur étrangère</p>",
+        "terme": "odeur étrangère",
         "groupe": 1
       }
     ]
@@ -96017,7 +96017,7 @@
       },
       {
         "id": 4,
-        "terme": "<div class=\"subsection_5\" id=\"subsection_5_3\" style=\"color: rgb(68, 68, 68); background-color: rgb(249, 249, 249);\"><div class=\"panel-body col-md-6 col-sm-12\" style=\"width: 412px;\"><div class=\"subsect",
+        "terme": "<div class=\"subsect",
         "groupe": 1
       },
       {
@@ -96048,7 +96048,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>baromètre conjoncturel</p>",
+        "terme": "baromètre conjoncturel",
         "groupe": 1
       }
     ]
@@ -96568,7 +96568,7 @@
       },
       {
         "id": 1,
-        "terme": "<p>caler (un meuble)</p>",
+        "terme": "caler (un meuble)",
         "groupe": 5
       }
     ]
@@ -98384,7 +98384,7 @@
       },
       {
         "id": 1,
-        "terme": "<p>sophistiqué (tenue)</p>",
+        "terme": "sophistiqué (tenue)",
         "groupe": 3
       }
     ]
@@ -98863,7 +98863,7 @@
       },
       {
         "id": 1,
-        "terme": "<p>conclave<br></p>",
+        "terme": "conclave",
         "groupe": 2
       }
     ]
@@ -102061,7 +102061,7 @@
       },
       {
         "id": 7,
-        "terme": "<p>point névralgique</p>",
+        "terme": "point névralgique",
         "groupe": 1
       },
       {
@@ -102081,17 +102081,17 @@
       },
       {
         "id": 4,
-        "terme": "<p>amande (abricot)</p>",
+        "terme": "amande (abricot)",
         "groupe": 2
       },
       {
         "id": 6,
-        "terme": "<p>centre</p>",
+        "terme": "centre",
         "groupe": 1
       },
       {
         "id": 5,
-        "terme": "<p>noyau dur</p>",
+        "terme": "noyau dur",
         "groupe": 1
       },
       {
@@ -102300,17 +102300,17 @@
       },
       {
         "id": 2,
-        "terme": "<p>financement par capitalisation</p>",
+        "terme": "financement par capitalisation",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p><span style=\"letter-spacing: 0.34px;\">système de retraites par capitalisation</span><br></p>",
+        "terme": "système de retraites par capitalisation",
         "groupe": 1
       },
       {
         "id": 4,
-        "terme": "<p>principe de la capitalisation</p>",
+        "terme": "principe de la capitalisation",
         "groupe": 1
       }
     ]
@@ -105790,7 +105790,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>rôle</p>",
+        "terme": "rôle",
         "groupe": 1
       },
       {
@@ -105800,7 +105800,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>registre</p>",
+        "terme": "registre",
         "groupe": 2
       },
       {
@@ -105815,7 +105815,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>catalogue&nbsp;</p>",
+        "terme": "catalogue&nbsp;",
         "groupe": 3
       }
     ]
@@ -105857,7 +105857,7 @@
       },
       {
         "id": 1,
-        "terme": "<p>se retirer</p>",
+        "terme": "se retirer",
         "groupe": 4
       },
       {
@@ -105872,12 +105872,12 @@
       },
       {
         "id": 1,
-        "terme": "<p>quitter la scène</p>",
+        "terme": "quitter la scène",
         "groupe": 5
       },
       {
         "id": 2,
-        "terme": "<p>sortir de scène&nbsp;</p>",
+        "terme": "sortir de scène&nbsp;",
         "groupe": 5
       }
     ]
@@ -105908,12 +105908,12 @@
       },
       {
         "id": 3,
-        "terme": "<p>fractionner</p>",
+        "terme": "fractionner",
         "groupe": 2
       },
       {
         "id": 4,
-        "terme": "<p>sectoriser</p>",
+        "terme": "sectoriser",
         "groupe": 2
       }
     ]
@@ -106074,17 +106074,17 @@
       },
       {
         "id": 1,
-        "terme": "<p>compétent (personne)</p>",
+        "terme": "compétent (personne)",
         "groupe": 5
       },
       {
         "id": 2,
-        "terme": "<p>avisé</p>",
+        "terme": "avisé",
         "groupe": 5
       },
       {
         "id": 3,
-        "terme": "<p>qualifié</p>",
+        "terme": "qualifié",
         "groupe": 5
       }
     ]
@@ -106363,7 +106363,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>un à un</p>",
+        "terme": "un à un",
         "groupe": 1
       },
       {
@@ -106520,7 +106520,7 @@
       },
       {
         "id": 4,
-        "terme": "<p>d'autorité</p>",
+        "terme": "d'autorité",
         "groupe": 2
       },
       {
@@ -106597,7 +106597,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>des (+ substantif, partitif)</p>",
+        "terme": "des (+ substantif, partitif)",
         "groupe": 2
       },
       {
@@ -106638,17 +106638,17 @@
     "traductions": [
       {
         "id": 5,
-        "terme": "<p>obtempération</p>",
+        "terme": "obtempération",
         "groupe": 3
       },
       {
         "id": 3,
-        "terme": "<p>obéissance</p>",
+        "terme": "obéissance",
         "groupe": 3
       },
       {
         "id": 4,
-        "terme": "<p>docilité</p>",
+        "terme": "docilité",
         "groupe": 3
       },
       {
@@ -107028,37 +107028,37 @@
       },
       {
         "id": 1,
-        "terme": "<p>trancher</p>",
+        "terme": "trancher",
         "groupe": 2
       },
       {
         "id": 2,
-        "terme": "<p>arbitrer</p>",
+        "terme": "arbitrer",
         "groupe": 2
       },
       {
         "id": 3,
-        "terme": "<p>résoudre</p>",
+        "terme": "résoudre",
         "groupe": 2
       },
       {
         "id": 4,
-        "terme": "<p>établir</p>",
+        "terme": "établir",
         "groupe": 2
       },
       {
         "id": 5,
-        "terme": "<p>définir</p>",
+        "terme": "définir",
         "groupe": 2
       },
       {
         "id": 6,
-        "terme": "<p>organiser</p>",
+        "terme": "organiser",
         "groupe": 2
       },
       {
         "id": 7,
-        "terme": "<p>déterminer</p>",
+        "terme": "déterminer",
         "groupe": 2
       }
     ]
@@ -107104,27 +107104,27 @@
       },
       {
         "id": 5,
-        "terme": "<p>en continu</p>",
+        "terme": "en continu",
         "groupe": 2
       },
       {
         "id": 6,
-        "terme": "<p>systématiquement</p>",
+        "terme": "systématiquement",
         "groupe": 2
       },
       {
         "id": 7,
-        "terme": "<p>de manière simultanée</p>",
+        "terme": "de manière simultanée",
         "groupe": 2
       },
       {
         "id": 8,
-        "terme": "<p>d'un bout à l'autre</p>",
+        "terme": "d'un bout à l'autre",
         "groupe": 2
       },
       {
         "id": 9,
-        "terme": "<p>à l'unanimité</p>",
+        "terme": "à l'unanimité",
         "groupe": 2
       }
     ]
@@ -107135,7 +107135,7 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "Plus d'informations sous <i><b>massgebend</b></i> et remarque",
+        "terme": "Plus d'informations sous massgebend et remarque",
         "groupe": 2
       },
       {
@@ -107186,7 +107186,7 @@
       },
       {
         "id": 5,
-        "terme": "<p>réussite</p>",
+        "terme": "réussite",
         "groupe": 1
       }
     ]
@@ -107308,22 +107308,22 @@
     "traductions": [
       {
         "id": 7,
-        "terme": "<p>déterminer</p>",
+        "terme": "déterminer",
         "groupe": 2
       },
       {
         "id": 6,
-        "terme": "<p>organiser</p>",
+        "terme": "organiser",
         "groupe": 2
       },
       {
         "id": 5,
-        "terme": "<p>définir</p>",
+        "terme": "définir",
         "groupe": 2
       },
       {
         "id": 4,
-        "terme": "<p>établir</p>",
+        "terme": "établir",
         "groupe": 2
       },
       {
@@ -107333,7 +107333,7 @@
       },
       {
         "id": 3,
-        "terme": "<p>résoudre</p>",
+        "terme": "résoudre",
         "groupe": 2
       },
       {
@@ -107343,7 +107343,7 @@
       },
       {
         "id": 1,
-        "terme": "<p>trancher</p>",
+        "terme": "trancher",
         "groupe": 2
       },
       {
@@ -107353,7 +107353,7 @@
       },
       {
         "id": 2,
-        "terme": "<p>arbitrer</p>",
+        "terme": "arbitrer",
         "groupe": 2
       },
       {
@@ -107399,17 +107399,17 @@
       },
       {
         "id": 1,
-        "terme": "<p>tâche</p>",
+        "terme": "tâche",
         "groupe": 2
       },
       {
         "id": 2,
-        "terme": "<p>devoir</p>",
+        "terme": "devoir",
         "groupe": 2
       },
       {
         "id": 3,
-        "terme": "<p>pensum</p>",
+        "terme": "pensum",
         "groupe": 2
       }
     ]
@@ -107420,22 +107420,22 @@
     "traductions": [
       {
         "id": 1,
-        "terme": "<p>plateforme&nbsp; ou plate-forme</p>",
+        "terme": "plateforme&nbsp; ou plate-forme",
         "groupe": 1
       },
       {
         "id": 2,
-        "terme": "<p>espace</p>",
+        "terme": "espace",
         "groupe": 1
       },
       {
         "id": 3,
-        "terme": "<p>programme</p>",
+        "terme": "programme",
         "groupe": 1
       },
       {
         "id": 4,
-        "terme": "<p>émission</p>",
+        "terme": "émission",
         "groupe": 1
       }
     ]
@@ -107512,12 +107512,12 @@
       },
       {
         "id": 5,
-        "terme": "<p>impoli</p>",
+        "terme": "impoli",
         "groupe": 1
       },
       {
         "id": 6,
-        "terme": "<p>impertinent</p>",
+        "terme": "impertinent",
         "groupe": 1
       }
     ]
@@ -107695,7 +107695,7 @@
       },
       {
         "id": 6,
-        "terme": "<p>étayé</p>",
+        "terme": "étayé",
         "groupe": 1
       }
     ]
