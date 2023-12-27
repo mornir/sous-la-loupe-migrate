@@ -4,38 +4,31 @@
   "traductions": [
     {
       "id": 333,
-      "ordre": 1,
       "term": "compartiment",
-      "groupe_num": 1,
-      "groupe_nom": "sens propre"
+      "position": 1,
+      "groupe": 1,
+      "sens": "sens propre"
     },
     {
-      "term": "compartiment",
-      "sens": "tiroir (p. ex. secret)"
+      "id": 334,
+      "term": "tiroir (p. ex. secret)",
+      "position": 2,
+      "groupe": 1,
+      "sens": "sens propre"
     },
     {
+      "id": 335,
       "term": "branche",
+      "position": 3,
+      "groupe": 2,
       "sens": "sens figuré"
     },
     {
+      "id": 336,
       "term": "métier",
+      "position": 4,
+      "groupe": 2,
       "sens": "sens figuré"
-    },
-    {
-      "sens": "sens figuré",
-      "ordre": 1,
-      "termes": [
-        "compartiment",
-        "tiroir (p. ex. secret)"
-      ]
-    },
-    {
-      "sens": "sens figuré",
-      "ordre": 2,
-      "termes": [
-        "branche",
-        "métier"
-      ]
     }
   ],
   "exemples": [
