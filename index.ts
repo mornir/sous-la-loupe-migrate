@@ -1,5 +1,5 @@
 import vedettes from "./data/german.json"
-import translations from "./data/french.json"
+import translations from "./data/french.json";
 
 const data = vedettes
   .map((v) => {
