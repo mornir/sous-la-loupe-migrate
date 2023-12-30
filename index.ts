@@ -33,13 +33,22 @@ const data = vedettes
       return {
         id: e2.id_term,
         de: e2.term_expression.replace(/(<([^>]+)>)/gi, '').trim().replace(/\n|\r/g, ''),
-        fr: e2.trans_expression.replace(/(<([^>]+)>)/gi, '').trim().replace(/\n|\r/g, '')
+        fr: e2.trans_expression.replace(/(<([^>]+)>)/gi, '').trim().replace(/\n|\r/g, ''),
+        position: e2.display_order
       }
+    }).sort((a, b) => {
+      // Sort by position
+      if (a.position < b.position) return -1
+      if (a.position > b.position) return 1
+      // Both idential, return 0
+      return 0
     })
+
 
     return {
       id: v.id_term,
       term: v.term.trim(),
+      notes: v.notes.replace(/(<([^>]+)>)/gi, '').trim(),
       traductions,
       exemples,
     }
