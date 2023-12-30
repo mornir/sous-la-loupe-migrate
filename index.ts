@@ -57,4 +57,4 @@ const data = vedettes
 
 const output = JSON.stringify(data)
 
-await Bun.write('fichier.json', output)
+await Bun.write('fiches.json', output)
