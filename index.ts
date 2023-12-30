@@ -1,5 +1,6 @@
 import vedettes from './data/german.json'
 import translations from './data/french.json'
+import examples from './data/examples.json'
 
 const data = vedettes
   .map((v) => {
@@ -28,10 +29,19 @@ const data = vedettes
       return 0
     })
 
+    const exemples = examples.filter((e) => e.id_term === v.id_term).map((e2) => {
+      return {
+        id: e2.id_term,
+        de: e2.term_expression.replace(/(<([^>]+)>)/gi, '').trim().replace(/\n|\r/g, ''),
+        fr: e2.trans_expression.replace(/(<([^>]+)>)/gi, '').trim().replace(/\n|\r/g, '')
+      }
+    })
+
     return {
       id: v.id_term,
       term: v.term.trim(),
       traductions,
+      exemples,
     }
   })
   .filter(Boolean)
