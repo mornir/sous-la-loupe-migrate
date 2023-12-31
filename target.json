@@ -52,10 +52,15 @@
   "liens": [
     {
       "id": 2,
+      "slug": "fachabteilung",
+      "type": 1,
+      "position": 1,
       "vedette": "Fachabteilung"
     },
     {
       "id": 3,
+      "type": 1,
+      "position": 2,
       "vedette": "Fachverband"
     }
   ]

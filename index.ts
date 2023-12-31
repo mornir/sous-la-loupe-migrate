@@ -1,7 +1,39 @@
 const slugify = require('slug')
+slugify.setLocale('de')
+
 import vedettes from './data/german.json'
 import translations from './data/french.json'
 import examples from './data/examples.json'
+import links from './data/links.json'
+
+const linksEnhanced = links.map((l) => {
+  const vedette = vedettes.find(v => v.id_term === l.id_term_linked)?.term
+  if (!vedette) return null
+  const slug = slugify(vedette)
+
+
+
+
+  return {
+    id_source: l.id_term,
+    id_cible: l.id_term_linked,
+    type: l.relation_type,
+    position: l.display_order,
+    vedette,
+    slug
+  }
+}).filter(Boolean).sort((a, b) => {
+  // Sort by position
+
+  // https://github.com/microsoft/TypeScript/issues/16655
+  // @ts-ignore
+  if (a.position < b.position) return -1
+
+  // @ts-ignore
+  if (a.position > b.position) return 1
+  // Both idential, return 0
+  return 0
+})
 
 const data = vedettes
   .map((v) => {
@@ -45,9 +77,12 @@ const data = vedettes
       return 0
     })
 
-    const vedette = v.term.trim()
-    const slug = slugify(vedette, { locale: 'de' })
+    // https://github.com/microsoft/TypeScript/issues/16655
+    // @ts-ignore
+    const liens = linksEnhanced.filter((l) => l.id_source === v.id_term)
 
+    const vedette = v.term.trim()
+    const slug = slugify(vedette)
 
     return {
       id: v.id_term,
@@ -56,6 +91,7 @@ const data = vedettes
       notes: v.notes.replace(/(<([^>]+)>)/gi, '').trim(),
       traductions,
       exemples,
+      liens
     }
   })
   .filter(Boolean)
