@@ -1,3 +1,4 @@
+const slugify = require('slug')
 import vedettes from './data/german.json'
 import translations from './data/french.json'
 import examples from './data/examples.json'
@@ -44,10 +45,14 @@ const data = vedettes
       return 0
     })
 
+    const term = v.term.trim()
+    const slug = slugify(term, { locale: 'de' })
+
 
     return {
       id: v.id_term,
-      term: v.term.trim(),
+      term,
+      slug,
       notes: v.notes.replace(/(<([^>]+)>)/gi, '').trim(),
       traductions,
       exemples,
