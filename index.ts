@@ -45,13 +45,13 @@ const data = vedettes
       return 0
     })
 
-    const term = v.term.trim()
-    const slug = slugify(term, { locale: 'de' })
+    const vedette = v.term.trim()
+    const slug = slugify(vedette, { locale: 'de' })
 
 
     return {
       id: v.id_term,
-      term,
+      vedette,
       slug,
       notes: v.notes.replace(/(<([^>]+)>)/gi, '').trim(),
       traductions,
