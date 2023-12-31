@@ -6,13 +6,18 @@ import translations from './data/french.json'
 import examples from './data/examples.json'
 import links from './data/links.json'
 
+
+function sortFn(a: number, b: number) {
+  if (a < b) return -1
+  if (a > b) return 1
+  return 0
+}
+
 const linksEnhanced = links.map((l) => {
+
   const vedette = vedettes.find(v => v.id_term === l.id_term_linked)?.term
   if (!vedette) return null
   const slug = slugify(vedette)
-
-
-
 
   return {
     id_source: l.id_term,
@@ -23,16 +28,9 @@ const linksEnhanced = links.map((l) => {
     slug
   }
 }).filter(Boolean).sort((a, b) => {
-  // Sort by position
-
   // https://github.com/microsoft/TypeScript/issues/16655
   // @ts-ignore
-  if (a.position < b.position) return -1
-
-  // @ts-ignore
-  if (a.position > b.position) return 1
-  // Both idential, return 0
-  return 0
+  return sortFn(a.position, b.position)
 })
 
 const data = vedettes
@@ -69,13 +67,7 @@ const data = vedettes
         fr: e2.trans_expression.replace(/(<([^>]+)>)/gi, '').trim().replace(/\n|\r/g, ''),
         position: e2.display_order
       }
-    }).sort((a, b) => {
-      // Sort by position
-      if (a.position < b.position) return -1
-      if (a.position > b.position) return 1
-      // Both idential, return 0
-      return 0
-    })
+    }).sort((a, b) => sortFn(a.position, b.position))
 
     // https://github.com/microsoft/TypeScript/issues/16655
     // @ts-ignore
