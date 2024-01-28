@@ -13,6 +13,10 @@ function sortFn(a: number, b: number) {
   return 0
 }
 
+function cleanup(str: string) {
+  return str.replace(/(<((?!\/?b|\/?i)[^>]+)>)/gi, '').trim()
+}
+
 const linksEnhanced = links.map((l) => {
 
   const vedette = vedettes.find(v => v.id_term === l.id_term_linked)?.term
@@ -63,8 +67,8 @@ const data = vedettes
     const exemples = examples.filter((e) => e.id_term === v.id_term).map((e2) => {
       return {
         id: e2.id_term,
-        de: e2.term_expression.replace(/(<([^>]+)>)/gi, '').trim().replace(/\n|\r/g, ''),
-        fr: e2.trans_expression.replace(/(<([^>]+)>)/gi, '').trim().replace(/\n|\r/g, ''),
+        de: cleanup(e2.term_expression),
+        fr: cleanup(e2.trans_expression),
         position: e2.display_order
       }
     }).sort((a, b) => sortFn(a.position, b.position))
