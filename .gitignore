@@ -175,6 +175,6 @@ dist
 .DS_Store
 
 # Custom
-fiches.json
+output/
 data/
 

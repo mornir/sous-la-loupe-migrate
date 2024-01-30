@@ -92,6 +92,11 @@ const data = vedettes
   })
   .filter(Boolean)
 
-const output = JSON.stringify(data)
+// @ts-ignore
+const vedettesListe = data.map(v => ({ id: v.id, vedette: v.vedette, slug: v.slug }))
 
-await Bun.write('fiches.json', output)
+const output = JSON.stringify(data)
+const output2 = JSON.stringify(vedettesListe)
+
+await Bun.write('./output/fiches.json', output)
+await Bun.write('./output/vedettes.json', output2)
