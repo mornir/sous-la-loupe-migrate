@@ -17,7 +17,21 @@ function cleanup(str: string) {
   return str.replace(/(<((?!\/?b|\/?i)[^>]+)>)/gi, '').trim()
 }
 
-const linksEnhanced = links.map((l) => {
+function removeDuplicates(arr: Array<{
+  id_source: number;
+  id_cible: number;
+  type: number;
+  position: number;
+  vedette: string;
+  slug: any;
+}>) {
+  return Array.from(new Set(arr.map(a => a.slug)))
+    .map(slug => {
+      return arr.find(a => a.slug === slug)
+    })
+}
+
+const linksWithSlugs = links.map((l) => {
 
   const vedette = vedettes.find(v => v.id_term === l.id_term_linked)?.term
   if (!vedette) return null
@@ -73,9 +87,11 @@ const data = vedettes
       }
     }).sort((a, b) => sortFn(a.position, b.position))
 
-    // https://github.com/microsoft/TypeScript/issues/16655
     // @ts-ignore
-    const liens = linksEnhanced.filter((l) => l.id_source === v.id_term)
+    const liens2 = linksWithSlugs.filter((l) => l.id_source === v.id_term)
+
+    // @ts-ignore
+    const liens = removeDuplicates(liens2)
 
     const vedette = v.term.trim()
     const slug = slugify(vedette)
@@ -84,7 +100,7 @@ const data = vedettes
       id: v.id_term,
       vedette,
       slug,
-      notes: v.notes.replace(/(<([^>]+)>)/gi, '').trim(),
+      /* notes: v.notes.replace(/(<([^>]+)>)/gi, '').trim(), */
       traductions,
       exemples,
       liens
