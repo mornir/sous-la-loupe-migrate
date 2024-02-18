@@ -1,10 +1,10 @@
 const slugify = require('slug')
 slugify.setLocale('de')
 
-import vedettes from './data/german.json'
-import translations from './data/french.json'
-import examples from './data/examples.json'
-import links from './data/links.json'
+import vedettes from '../data/german.json'
+import translations from '../data/french.json'
+import examples from '../data/examples.json'
+import links from '../data/links.json'
 
 
 function sortFn(a: number, b: number) {
