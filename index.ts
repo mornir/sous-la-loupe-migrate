@@ -14,7 +14,22 @@ function sortFn(a: number, b: number) {
 }
 
 function cleanup(str: string) {
-  return str.replace(/(<((?!\/?b|\/?i)[^>]+)>)/gi, '').trim()
+  // remove all html tags, except <b> and <i>
+  const stripHtml = /(<((?!\/?b|\/?i)[^>]+)>)/gi
+  const stripNonBreakingSpaces = /\u00A0|&nbsp;/g
+
+  // Remove attributes from <b>
+  const cleanBoldTags = /<b(?:\s+[^>]+)?\s*>/g
+
+  const removeEmptyTags = /<i><\/i>|<b><\/b>/g
+
+  const removeDoubleCarriageReturn = /\r\n<br>/g
+
+  // U+00ad
+  const removeSoftHyphen = /\u00AD/g
+
+
+  return str.replace(stripHtml, '').replace(stripNonBreakingSpaces, ' ').replace(cleanBoldTags, '<b>').replace(removeEmptyTags, '').replace(removeDoubleCarriageReturn, '\r\n').replaceAll('<br>', '\r\n').replace(removeSoftHyphen, '').trim()
 }
 
 function removeDuplicates(arr: Array<{
@@ -60,7 +75,7 @@ const data = vedettes
       .map((t2) => {
         return {
           id: t2.id_translation,
-          terme: t2.term_translation.replace(/(<([^>]+)>)/gi, '').trim(),
+          terme: t2.term_translation.replace(/(<([^>]+)>)/gi, '').replace(/\u00A0|&nbsp;/g, ' ').trim(),
           groupe: t2.display_order,
           position: t2.display_order1,
           sens: t2.id_subject_field,
