@@ -121,7 +121,7 @@ const data = vedettes
       liens
     }
   })
-  .filter(Boolean)
+  .filter(Boolean).filter(f => !f.vedette.startsWith('-1'))
 
 // @ts-ignore
 const vedettesListe = data.map(v => ({ id: v.id, vedette: v.vedette, slug: v.slug }))
