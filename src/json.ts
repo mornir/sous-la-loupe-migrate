@@ -126,19 +126,12 @@ const vedettesListe = data.map(v => ({ id: v.id, vedette: v.vedette, slug: v.slu
 const nuage = data.map(fiche => {
   const exemplesCount = fiche.exemples.length
   const text = fiche.vedette
-
-  // Exclude fiches without examples
-  if (!exemplesCount) return null
-
-  // Exclude vedettes with parenthesis (looks ugly)
+  // Exclude vedettes with parenthesis and slashes (looks ugly in cloud)
   if (text.includes('(')) return null
-
   if (text.includes('/')) return null
-
-
   return {
     text,
-    size: Math.min(Math.floor(exemplesCount / 2 + 0.5), 10)
+    size: Math.max(exemplesCount, 1)
   }
 }).filter(BooleanFix).sort((a, b) => {
   return sortFn(b.size, a.size)
