@@ -1,6 +1,4 @@
-const xml = require('xml'); // TODO: delete package
 import fiches from '../output/fiches.json'
-
 
 const sourceDesc = 'Fiches du fichier français'
 
