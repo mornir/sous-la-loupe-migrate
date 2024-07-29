@@ -6,6 +6,10 @@ import translations from '../data/french.json'
 import examples from '../data/examples.json'
 import links from '../data/links.json'
 
+// https://github.com/microsoft/TypeScript/pull/29955#issuecomment-470062531
+function BooleanFix<T>(value: T): value is Exclude<T, false | null | undefined | '' | 0> {
+  return Boolean(value);
+}
 
 function sortFn(a: number, b: number) {
   if (a < b) return -1
@@ -27,7 +31,6 @@ function cleanup(str: string) {
 
   // U+00ad
   const removeSoftHyphen = /\u00AD/g
-
 
   return str.replace(stripHtml, '').replace(stripNonBreakingSpaces, ' ').replace(cleanBoldTags, '<b>').replace(removeEmptyTags, '').replace(removeDoubleCarriageReturn, '\r\n').replaceAll('<br>', '\r\n').replace(removeSoftHyphen, '').trim()
 }
@@ -60,9 +63,7 @@ const linksWithSlugs = links.map((l) => {
     vedette,
     slug
   }
-}).filter(Boolean).sort((a, b) => {
-  // https://github.com/microsoft/TypeScript/issues/16655
-  // @ts-ignore
+}).filter(BooleanFix).sort((a, b) => {
   return sortFn(a.position, b.position)
 })
 
@@ -102,10 +103,7 @@ const data = vedettes
       }
     }).sort((a, b) => sortFn(a.position, b.position))
 
-    // @ts-ignore
     const liens2 = linksWithSlugs.filter((l) => l.id_source === v.id_term)
-
-    // @ts-ignore
     const liens = removeDuplicates(liens2)
 
     const vedette = v.term.trim()
@@ -121,13 +119,35 @@ const data = vedettes
       liens
     }
   })
-  .filter(Boolean).filter(f => !f.vedette.startsWith('-1'))
+  .filter(BooleanFix).filter(f => !f.vedette.startsWith('-1'))
 
-// @ts-ignore
 const vedettesListe = data.map(v => ({ id: v.id, vedette: v.vedette, slug: v.slug }))
+
+const nuage = data.map(fiche => {
+  const exemplesCount = fiche.exemples.length
+  const text = fiche.vedette
+
+  // Exclude fiches without examples
+  if (!exemplesCount) return null
+
+  // Exclude vedettes with parenthesis (looks ugly)
+  if (text.includes('(')) return null
+
+  if (text.includes('/')) return null
+
+
+  return {
+    text,
+    size: Math.min(Math.floor(exemplesCount / 2 + 0.5), 10)
+  }
+}).filter(BooleanFix).sort((a, b) => {
+  return sortFn(b.size, a.size)
+})
 
 const output = JSON.stringify(data)
 const output2 = JSON.stringify(vedettesListe)
+const output3 = JSON.stringify(nuage)
 
 await Bun.write('./output/fiches.json', output)
 await Bun.write('./output/vedettes.json', output2)
+await Bun.write('./output/nuage.json', output3)
