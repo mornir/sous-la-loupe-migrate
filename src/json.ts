@@ -131,7 +131,8 @@ const nuage = data.map(fiche => {
   if (text.includes('/')) return null
   return {
     text,
-    size: Math.max(exemplesCount, 1)
+    size: Math.max(exemplesCount, 1),
+    href: fiche.slug
   }
 }).filter(BooleanFix).sort((a, b) => {
   return sortFn(b.size, a.size)
