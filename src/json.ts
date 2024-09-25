@@ -145,3 +145,5 @@ const output3 = JSON.stringify(nuage)
 await Bun.write('./output/fiches.json', output)
 await Bun.write('./output/vedettes.json', output2)
 await Bun.write('./output/nuage.json', output3)
+
+console.log('Export Sucessful!')
