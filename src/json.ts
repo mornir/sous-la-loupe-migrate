@@ -5,6 +5,8 @@ import vedettes from '../data/german.json'
 import translations from '../data/french.json'
 import examples from '../data/examples.json'
 import links from '../data/links.json'
+import genders from '../data/genders.json'
+import fields from '../data/fields.json'
 
 // https://github.com/microsoft/TypeScript/pull/29955#issuecomment-470062531
 function BooleanFix<T>(value: T): value is Exclude<T, false | null | undefined | '' | 0> {
@@ -74,12 +76,13 @@ const data = vedettes
     const traductions = translations
       .filter((t) => v.id_term === t.id_term)
       .map((t2) => {
+        const sens = fields.find(field => field.id_subject_field === t2.id_subject_field)?.name_subject_field
         return {
           id: t2.id_translation,
           terme: t2.term_translation.replace(/(<([^>]+)>)/gi, '').replace(/\u00A0|&nbsp;/g, ' ').trim(),
           groupe: t2.display_order,
           position: t2.display_order1,
-          sens: t2.id_subject_field,
+          sens
         }
       })
 
@@ -109,11 +112,14 @@ const data = vedettes
     const vedette = v.term.trim()
     const slug = slugify(vedette)
 
+    const genre = genders.find(gender => gender.id_gtype === v.id_gtype)?.name_gtype
+
     return {
       id: v.id_term,
       vedette,
+      genre,
       slug,
-      /* notes: v.notes.replace(/(<([^>]+)>)/gi, '').trim(), */
+      notes: cleanup(v.notes),
       traductions,
       exemples,
       liens
