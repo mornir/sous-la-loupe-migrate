@@ -1,5 +1,4 @@
-const slugify = require('slug')
-slugify.setLocale('de')
+import { slugifyWithCounter } from '@sindresorhus/slugify';
 
 import vedettes from '../data/german.json'
 import translations from '../data/french.json'
@@ -7,6 +6,15 @@ import examples from '../data/examples.json'
 import links from '../data/links.json'
 import genders from '../data/genders.json'
 import fields from '../data/fields.json'
+
+const slugify = slugifyWithCounter();
+
+const slugs = vedettes.map(v => {
+  return {
+    id: v.id_term,
+    slug: slugify(v.term, { decamelize: false })
+  }
+})
 
 // https://github.com/microsoft/TypeScript/pull/29955#issuecomment-470062531
 function BooleanFix<T>(value: T): value is Exclude<T, false | null | undefined | '' | 0> {
@@ -55,7 +63,7 @@ const linksWithSlugs = links.map((l) => {
 
   const vedette = vedettes.find(v => v.id_term === l.id_term_linked)?.term
   if (!vedette) return null
-  const slug = slugify(vedette)
+  const slug = slugs.find(s => s.id === l.id_term_linked)?.slug
 
   return {
     id_source: l.id_term,
@@ -76,7 +84,7 @@ const data = vedettes
     const traductions = translations
       .filter((t) => v.id_term === t.id_term)
       .map((t2) => {
-        const sens = fields.find(field => field.id_subject_field === t2.id_subject_field)?.name_subject_field
+        const sens = fields.find(field => field.id_subject_field === t2.id_subject_field)?.name_subject_field || ''
         return {
           id: t2.id_translation,
           terme: t2.term_translation.replace(/(<([^>]+)>)/gi, '').replace(/\u00A0|&nbsp;/g, ' ').trim(),
@@ -110,9 +118,9 @@ const data = vedettes
     const liens = removeDuplicates(liens2)
 
     const vedette = v.term.trim()
-    const slug = slugify(vedette)
+    const slug = slugs.find(s => s.id === v.id_term)?.slug
 
-    const genre = genders.find(gender => gender.id_gtype === v.id_gtype)?.name_gtype
+    const genre = genders.find(gender => gender.id_gtype === v.id_gtype)?.name_gtype || ''
 
     return {
       id: v.id_term,
