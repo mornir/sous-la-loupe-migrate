@@ -6,6 +6,8 @@ import examples from '../data/examples.json'
 import links from '../data/links.json'
 import genders from '../data/genders.json'
 import fields from '../data/fields.json'
+import defs from '../data/definitions.json'
+import dictionaries from '../data/dictionaries.json'
 
 const slugify = slugifyWithCounter();
 
@@ -35,6 +37,9 @@ function cleanup(str: string) {
   // Remove attributes from <b>
   const cleanBoldTags = /<b(?:\s+[^>]+)?\s*>/g
 
+  // Remove attributes from <i>
+  const cleanItalicsTags = /<b(?:\s+[^>]+)?\s*>/g
+
   const removeEmptyTags = /<i><\/i>|<b><\/b>/g
 
   const removeDoubleCarriageReturn = /\r\n<br>/g
@@ -42,7 +47,7 @@ function cleanup(str: string) {
   // U+00ad
   const removeSoftHyphen = /\u00AD/g
 
-  return str.replace(stripHtml, '').replace(stripNonBreakingSpaces, ' ').replace(cleanBoldTags, '<b>').replace(removeEmptyTags, '').replace(removeDoubleCarriageReturn, '\r\n').replaceAll('<br>', '\r\n').replace(removeSoftHyphen, '').trim()
+  return str.replace(stripHtml, '').replace(stripNonBreakingSpaces, ' ').replace(cleanBoldTags, '<b>').replace(cleanItalicsTags, '<i>').replace(removeEmptyTags, '').replace(removeDoubleCarriageReturn, '\r\n').replaceAll('<br>', '\r\n').replace(removeSoftHyphen, '').trim()
 }
 
 function removeDuplicates(arr: Array<{
@@ -122,9 +127,15 @@ const data = vedettes
 
     const genre = genders.find(gender => gender.id_gtype === v.id_gtype)?.name_gtype || ''
 
+    const definitions = defs.filter(d => d.id_term === v.id_term).map(def => ({
+      definition: cleanup(def.definition),
+      source: dictionaries.find(dic => dic.id === def.id_dictionary)?.name || def.id_dictionary
+    }))
+
     return {
       id: v.id_term,
       vedette,
+      definitions,
       genre,
       slug,
       notes: cleanup(v.notes),
@@ -160,4 +171,4 @@ await Bun.write('./output/fiches.json', output)
 await Bun.write('./output/vedettes.json', output2)
 await Bun.write('./output/nuage.json', output3)
 
-console.log('Export Sucessful!')
+console.info('Export Sucessful!')
