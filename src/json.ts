@@ -29,7 +29,7 @@ function sortFn(a: number, b: number) {
   return 0
 }
 
-function cleanup(str: string) {
+function cleanup(str: string): string {
   // remove all html tags, except <b> and <i>
   const stripHtml = /(<((?!\/?b|\/?i)[^>]+)>)/gi
   const stripNonBreakingSpaces = /\u00A0|&nbsp;/g
@@ -38,16 +38,17 @@ function cleanup(str: string) {
   const cleanBoldTags = /<b(?:\s+[^>]+)?\s*>/g
 
   // Remove attributes from <i>
-  const cleanItalicsTags = /<b(?:\s+[^>]+)?\s*>/g
-
-  const removeEmptyTags = /<i><\/i>|<b><\/b>/g
+  const cleanItalicsTags = /<i(?:\s+[^>]+)?\s*>/g
 
   const removeDoubleCarriageReturn = /\r\n<br>/g
+
+  // Remove empty tags (including empty spaces)
+  const removeEmptyTags = /<i>\s*<\/i>|<b>\s*<\/b>/g
 
   // U+00ad
   const removeSoftHyphen = /\u00AD/g
 
-  return str.replace(stripHtml, '').replace(stripNonBreakingSpaces, ' ').replace(cleanBoldTags, '<b>').replace(cleanItalicsTags, '<i>').replace(removeEmptyTags, '').replace(removeDoubleCarriageReturn, '\r\n').replaceAll('<br>', '\r\n').replace(removeSoftHyphen, '').trim()
+  return str.replace(stripHtml, '').replace(stripNonBreakingSpaces, ' ').replace(cleanBoldTags, '<b>').replace(cleanItalicsTags, '<i>').replace(removeDoubleCarriageReturn, '\r\n').replaceAll('<br>', '\r\n').replace(removeEmptyTags, '').replaceAll('<b>\r\n</b>', '').replace(removeSoftHyphen, '').trim()
 }
 
 function removeDuplicates(arr: Array<{
