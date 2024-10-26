@@ -9,6 +9,7 @@ import fields from '../data/fields.json'
 import defs from '../data/definitions.json'
 import dictionaries from '../data/dictionaries.json'
 
+// With counters because of words like Abseits et abseits which would result in the same slug
 const slugify = slugifyWithCounter();
 
 const slugs = vedettes.map(v => {
@@ -30,25 +31,58 @@ function sortFn(a: number, b: number) {
 }
 
 function cleanup(str: string): string {
-  // remove all html tags, except <b> and <i>
-  const stripHtml = /(<((?!\/?b|\/?i)[^>]+)>)/gi
-  const stripNonBreakingSpaces = /\u00A0|&nbsp;/g
 
-  // Remove attributes from <b>
-  const cleanBoldTags = /<b(?:\s+[^>]+)?\s*>/g
+  const rules = [{
+    desc: 'Remove all HTML tags, except <b>, <i> and self-closing tags like <br>',
+    regex: /(<((?!\/?b|\/?i)[^>]+)>)/gi,
+    replace: ''
+  },
+  {
+    desc: 'Remove all HTML attributes',
+    regex: /<([a-z][a - z0 - 9] *)[^>]*? (\/?)>/g,
+    replace: '<$1$2>'
+  },
+  {
+    desc: 'Remove non-breaking spaces',
+    regex: /\u00A0|&nbsp;/g,
+    replace: ' ',
+  },
+  {
+    desc: 'Remove soft hyphens',
+    regex: /\u00AD/g,
+    replace: '',
+  },
+  {
+    desc: 'Keep true line breaks',
+    regex: /\r\n<br>/g,
+    replace: '<br>',
+  },
+  {
+    desc: 'Remove false line braks',
+    regex: '\r\n\r\n',
+    replace: '',
+  },
+  {
+    // TODO: remove empty br tags?
+    desc: 'Remove empty b and i tags',
+    regex: /<i>\s*<\/i>|<b>\s*<\/b>/g,
+    replace: '',
+  },
+  {
+    desc: 'Remove <b>\r\n</b>',
+    regex: '<b>\r\n</b>',
+    replace: '',
+  }
 
-  // Remove attributes from <i>
-  const cleanItalicsTags = /<i(?:\s+[^>]+)?\s*>/g
+  ]
 
-  const removeDoubleCarriageReturn = /\r\n<br>/g
+  let cleanString = ''
 
-  // Remove empty tags (including empty spaces)
-  const removeEmptyTags = /<i>\s*<\/i>|<b>\s*<\/b>/g
+  rules.forEach(rule => {
+    cleanString = str.replaceAll(rule.regex, rule.replace)
+  })
 
-  // U+00ad
-  const removeSoftHyphen = /\u00AD/g
-
-  return str.replace(stripHtml, '').replace(stripNonBreakingSpaces, ' ').replace(cleanBoldTags, '<b>').replace(cleanItalicsTags, '<i>').replace(removeDoubleCarriageReturn, '\r\n').replaceAll('<br>', '\r\n').replace(removeEmptyTags, '').replaceAll('<b>\r\n</b>', '').replace(removeSoftHyphen, '').trim()
+  return cleanString.trim()
 }
 
 function removeDuplicates(arr: Array<{
