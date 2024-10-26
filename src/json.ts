@@ -39,7 +39,7 @@ function cleanup(str: string): string {
   },
   {
     desc: 'Remove all HTML attributes',
-    regex: /<([a-z][a - z0 - 9] *)[^>]*? (\/?)>/g,
+    regex: /<([a-z][a-z0-9]*)[^>]*?(\/?)>/g,
     replace: '<$1$2>'
   },
   {
@@ -53,14 +53,19 @@ function cleanup(str: string): string {
     replace: '',
   },
   {
-    desc: 'Keep true line breaks',
-    regex: /\r\n<br>/g,
-    replace: '<br>',
+    desc: 'replace <br>',
+    regex: '<br>',
+    replace: '\r\n',
   },
   {
-    desc: 'Remove false line braks',
+    desc: '<RemoveDoubleCarriageReturn>',
+    regex: /\r\n<br>/g,
+    replace: '\r\n',
+  },
+  {
+    desc: 'RemoveDoubleCarriageReturn',
     regex: '\r\n\r\n',
-    replace: '',
+    replace: '\r\n',
   },
   {
     // TODO: remove empty br tags?
@@ -73,13 +78,12 @@ function cleanup(str: string): string {
     regex: '<b>\r\n</b>',
     replace: '',
   }
-
   ]
 
-  let cleanString = ''
+  let cleanString = str
 
   rules.forEach(rule => {
-    cleanString = str.replaceAll(rule.regex, rule.replace)
+    cleanString = cleanString.replaceAll(rule.regex, rule.replace)
   })
 
   return cleanString.trim()
