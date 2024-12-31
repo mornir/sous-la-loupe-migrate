@@ -8,7 +8,91 @@
     "name": "Wahrig"
   },
   {
-    "id": 17,
+    "id": 4,
+    "name": "Duden Stilw."
+  },
+  {
+    "id": 5,
+    "name": "Duden Fremdw."
+  },
+  {
+    "id": 6,
+    "name": "Pekrun"
+  },
+  {
+    "id": 7,
+    "name": "Mackensen"
+  },
+  {
+    "id": 8,
+    "name": "Brockhaus"
+  },
+  {
+    "id": 9,
+    "name": "Herder"
+  },
+  {
+    "id": 10,
+    "name": "Wess.-Schmid"
+  },
+  {
+    "id": 11,
+    "name": "Knaur"
+  },
+  {
+    "id": 12,
     "name": "WddG"
+  },
+  {
+    "id": 14,
+    "name": "Küpper"
+  },
+  {
+    "id": 16,
+    "name": "Scheumann"
+  },
+  {
+    "id": 17,
+    "name": "Pelzer"
+  },
+  {
+    "id": 18,
+    "name": "Duden Universalw."
+  },
+  {
+    "id": 19,
+    "name": "autre source"
+  },
+  {
+    "id": 20,
+    "name": "Hoffmann-Block"
+  },
+  {
+    "id": 21,
+    "name": "."
+  },
+  {
+    "id": 22,
+    "name": "Wikipedia"
+  },
+  {
+    "id": 23,
+    "name": "Duden Wirtschaft"
+  },
+  {
+    "id": 24,
+    "name": "WDG"
+  },
+  {
+    "id": 25,
+    "name": "DWDS"
+  },
+  {
+    "id": 18,
+    "name": "Duden Universalw."
+  },
+  {
+    "id": 3,
+    "name": "Duden CH"
   }
 ]
